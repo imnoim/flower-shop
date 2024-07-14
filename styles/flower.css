@@ -140,3 +140,22 @@ section {
     font-weight: 700;
     line-height: 35px;
 }
+
+/* delivery support styles */
+
+.delivery-support-contents {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 175px;
+}
+
+.delivery-support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

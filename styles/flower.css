@@ -218,3 +218,39 @@ section {
     width: 100%;
     height: 100%;
 }
+
+/* latest deals styles */
+
+.latest-deals-container {
+    background-image: url("../assets/rectangle-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 449px;
+}
+
+.latest-deals-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 449px;
+}
+
+.latest-deals-content p {
+    margin-bottom: 20px;
+}
+
+form input[type="email"] {
+    border: none;
+    padding: 10px 20px;
+    height: 55px;
+    width: 500px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+input:focus {
+    outline: 0;
+}
